@@ -1,0 +1,467 @@
+/*
+Theme Name: Purity Market Theme
+Theme URI: https://wordpress.org/themes/purity/
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Purity Market is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Requires at least: 6.4
+Tested up to: 6.6
+Requires PHP: 7.0
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: purity
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+
+
+
+.login-head-container{
+   
+
+}
+
+.complete {
+  background-color: #73ce50; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+</style>
+<style>
+.open {
+  background-color: orange; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+</style>
+<style>
+.dispute {
+  background-color: #dc3545; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+</style>
+<style>
+.neutral {
+  background-color: #D0D0D0; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+</style>
+<style>
+.favo {
+  background-color: #dc3545; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+</style>
+<style>
+.sendmessage {
+  background-color: #007bff; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.shipped {
+  background-color: orange; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.view2 {
+  background-color: #007bff; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+.reject2 {
+  background-color: #dc3545; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+.extend {
+  background-color: #c3c3c3; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+.accept2 {
+  background-color: #73ce50; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+.shipped2 {
+  background-color: orange; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+
+.rating {
+  background-color: #F2F2F2; /* Green */
+  border: none;
+  color: #4a536e;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+
+.level1 {
+  background-color: #C0C0C0; /* Green */
+  border: none;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0px 0px;
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+
+
+
+.header-title{
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 23%;
+    color: white;
+}
+
+body{
+   
+    overflow-x:hidden;
+    
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.login-form-container{
+    border: solid 1px black;
+    width: 59.4%;
+    height: 60%;
+    position: absolute;
+    margin-top: 10%;
+}
+
+.login-form-container2{
+    border: solid 1px black;
+    height: 45%;
+    width: 40%;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+
+.register-form-container{
+    border: solid 1px black;
+    width: 59.4%;
+    height: 60%;
+    position: absolute;
+    margin-top: 10%;
+}
+
+.register-form-container2{
+    border: solid 1px black; 
+    height: 45%;
+    width:40%;
+    position:absolute;
+    margin-top:15%;
+    margin-left:10%;
+
+}
+
+.form {
+    width: 300px;
+    margin: 0 auto;
+    border: solid 1px black;
+    text-align: center;
+    margin-top: 15%;
+    overflow: hidden;
+}
+.clearfix:before, .clearfix:after{
+content: "";
+display: table;
+}
+.clearfix:after{
+clear: both;
+}
+a{
+color:#0067ab;
+text-decoration:none;
+}
+a:hover{
+text-decoration:underline;
+}
+
+input[type='text'], input[type='confirmPassword'],
+input[type='password'] {
+width: 200px;
+border-radius: 2px;
+border: 1px solid #CCC;
+padding: 10px;
+color: #333;
+font-size: 14px;
+margin-top: 10px;
+text-align:center;
+}
+input[type='submit']{
+padding: 10px 25px 8px;
+color: #fff;
+background-color: #0067ab;
+text-shadow: rgba(0,0,0,0.24) 0 1px 0;
+font-size: 16px;
+box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
+border: 1px solid #0164a5;
+border-radius: 2px;
+margin-top: 10px;
+cursor:pointer;
+}
+input[type='submit']:hover {
+background-color: #024978;
+}
+
+.btn.btn-danger2 {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+  margin-top: -10px;
+  margin-left: -35px;
+  position: absolute;
+}
+
+.btn.btn-danger2 {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #b21f2d;
+  margin-top: -10px;
+  margin-left: -40px;
+  position: absolute;
+}
+
+.imageStar{
+  position:absolute;
+  width:20px;
+  background-image:url("images/icons8-star-48.png");
+}
+
+#register_form {
+    /*width: 37%;*/
+    /*margin: 100px auto;*/
+    padding-bottom: 30px;
+    border: 1px solid #918274;
+    border-radius: 5px;
+    background: white;
+  }
+  #register_form input {
+    width: 80%;
+    height: 35px;
+    margin: 5px 10%;
+    font-size: 1.1em;
+    padding: 4px;
+    font-size: .9em;
+  }
+  .form_error span {
+    width: 80%;
+    height: 35px;
+    margin: 3px 10%;
+    font-size: 1.1em;
+    color: #D83D5A;
+  }
+  .form_error input {
+    border: 1px solid #D83D5A;
+  }
+  #reg_btn {
+    height: 45px;
+    /* width: 80%; */
+    margin: 5px 10%;
+    color: white;
+    background: #3B5998;
+    border: none;
+    border-radius: 5px;
+  }

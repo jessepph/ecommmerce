@@ -1,0 +1,115 @@
+
+@media only screen and (min-width: 62em) {
+    .message-folders {
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+
+    .message-content {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 1800px) {
+    .new-product .price-group
+    .new-product .quantity,
+    .new-product .currency {
+        max-width: 100px;
+    }
+
+    .new-product .payment {
+        max-width: 130px;
+        float: right;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .new-product .payment {
+        float: none;
+    }
+}
+
+@media only screen and (max-width: 1270px) {
+    .responsive-menu .menu-links {
+        display: none;
+        position: absolute;
+        height: auto;
+        top: 70px;
+        width: 100%;
+        background: white;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        z-index: 999999;
+    }
+
+    .responsive-menu .menu-toggler {
+        display: inline-block;
+    }
+
+    .responsive-menu:hover > .menu-links {
+        display: block;
+    }
+
+    
+
+    .navigation ul li.nav-logo {
+        position: relative;
+        margin: 0;
+    }
+
+
+}
+
+@media only screen and (max-width: 1182px) {
+    .wallet-table tr td .btn {
+        display: block;
+    }
+
+    .wallet-table tr td .btn:last-child {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .product-listing .product-details {
+        text-align: center;
+    }
+
+    .product-listing .photo img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .product-view .sidebar-content-right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .product-view .sidebar-navigation {
+        padding-left: 0;
+    }
+
+    .new-product .payment {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .container-wrapper {
+        width: 90%;
+    }
+
+    .form-inline .form-group {
+        display: block;
+    }
+
+    .new-product .price-group,
+    .new-product .currency,
+    .new-product .quantity {
+        width: 100%;
+        max-width: 100% !important;
+    }
+
+
+}
